@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+		background: #fff url('./imagens/bg.png');
+
+}
+
+#conteiner{
+	background: #ede9cc url('./imagens/bg-container.png') top center repeat-y;
+	margin: 0 auto;
+	min-width: 860px;
+	max-width: 1300px;
+}
+#topo{
+	position: relative;
+	background: #dbcd87;
+	height: 15.4em;
+	min-height: 250px;
+}
+.area-logo{
+position: absolute;
+width: 100%;
+height: 250px;
+background: url('./imagens/bg-101.png')no-repeat;
+top: 0;
+left: 0;
+}
+.logo img{
+	margin: 10px 0 0 250px;
+}
+.logo p{
+	text-indent: -9000px;
+}
+				
+.area-menu{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url('./imagens/topo-imagem-lateral.png')no-repeat;
+	width: 450px;
+	height: 250px;
+
+}
+
+.menu ul{
+	float: left;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+
+.menu a:hover{
+	color: gray;
+}
+::marker {
+  color: transparent;
+}
+
+.menu ul li{
+	margin: 0 0 5% 5%;
+	margin-left: 100px;
+}
+
+.menu img{
+	float: left;
+	width: 60%;
+}
+
+.sp{
+	color: white;
+	text-decoration: none;
+	margin: 5% 10% 5% 10%;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	text-align: center;
+	padding: 8px;
+
+}
+
+a.reserva{
+		background: black;
+		border-radius: 5px;
+		color: white;
+		text-decoration: none;
+		padding: 5px 10px;
+		float: right;
+		margin-top: -23px;
+}
+a:hover.reserva{
+	color: gray;		
+}
+.menu .depoimento{
+	width: 200px;
+	float: right;
+	margin-right: 10px;
+}
+.area-principal{
+	float: left;
+	width: 50%;
+	background: url('./imagens/bg-area-principal.png')repeat-x;
+}
+.area-principal h2{
+	margin-top: 30px;
+	margin-bottom: 5px;
+	text-align: center;
+	color: #344568;
+	
+
+}
+
+.area-lateral{
+	float: right;
+	width: 50%;
+	background: url('./imagens/bg-area-lateral.png')repeat-x;
+}
+.conteudo{
+	margin: 0 auto;
+	width: 90%;
+}
+.area-lateral li a img{
+	float: left;
+	margin: 5px;
+}
+.beneficios h3{
+	background: url('./imagens/ornamento.png')no-repeat right center;
+
+}
+.area-lateral li a{
+	color: black;
+	text-decoration: none;
+	font-size: 85%;
+}
+.area-lateral li a:hover{
+	color: gray;
+}
+.area-lateral tr p{
+	width: 60%;
+}
+.area-lateral li{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.area-lateral ul{
+	margin-top: 30px;
+}
+.area-lateral h3{
+	color: #344568;
+}
+
+footer{
+	background: #344568;
+	padding: 20px;
+	padding-left: 40%
+}
+
+.footer{
+	margin: 0;
+	color: white;
+}
